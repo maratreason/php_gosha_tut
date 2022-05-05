@@ -1,0 +1,17 @@
+
+.card {
+    width: 30%;
+    margin-left: 3%;
+}
+
+.card:nth-child(1) {
+    margin-left: 0;
+}
+
+.card:nth-child(3n+4) {
+    margin-left: 0;
+}
+
+.card-body img {
+    max-width: 100%;
+}
